@@ -10,7 +10,6 @@ Description:
     This testbench test the `Counter` module for counting from 0 to the 2^n-1, where n is defined by the parameter `width`.
 
 Counter Ports:
-    Ports:
     clk:    The clock.
     rst_n:  Asynchronous negative reset.
     en:     Enable signal. When en=1'b0, the module stops counting.
